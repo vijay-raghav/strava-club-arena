@@ -60,16 +60,13 @@ export default function ProblemSection() {
 
         {/* Right – Image placeholder */}
         <div className="relative">
-          <div className="aspect-[4/3] rounded-2xl bg-secondary flex items-center justify-center overflow-hidden border border-border">
-            <div className="text-center px-8">
-              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                <span className="text-3xl">🏃‍♂️</span>
-              </div>
-              <p className="text-muted-foreground text-sm font-medium">
-                Diverse Gen Z Run Club Image
-              </p>
-              <p className="text-muted-foreground/60 text-xs mt-1">Replace with your photo</p>
-            </div>
+          <div className="aspect-[4/3] rounded-2xl overflow-hidden border border-border">
+            <img
+              src={runClubImage}
+              alt="Diverse Gen Z runners competing in a Schenley Park Run Club 5K race"
+              className="w-full h-full object-cover"
+              loading="lazy"
+            />
           </div>
           {/* Decorative accent */}
           <div className="absolute -bottom-4 -right-4 w-24 h-24 rounded-2xl bg-primary/10 -z-10" />
