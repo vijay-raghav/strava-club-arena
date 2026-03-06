@@ -14,7 +14,7 @@ export default function SolutionSection() {
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         )}
       >
-        <p className="text-primary font-bold text-sm tracking-[0.15em] uppercase mb-3">Section 03</p>
+        
         <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground mb-6">
           Enter <span className="text-primary">Sponsored Club Battlegrounds</span>
         </h2>
