@@ -21,28 +21,32 @@ export default function AboutSection() {
           <div>
             
             <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground mb-4">
-              Hi, I'm <span className="text-primary">[Your Name]</span>.
+              Hi, I'm <span className="text-primary">Vijay Raghavan</span>.
             </h2>
             <p className="text-lg text-muted-foreground mb-2 font-medium">
               Let's build the future of human movement.
             </p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              I started my career as a software engineer, but I quickly realized my true passion wasn't just writing the code, it was defining what we build, why we build it, and who we build it for. Today, I am an AI-native Product Manager pursuing my Tech MBA (Master of Science in Product Management) at Carnegie Mellon University's{" "}
+              <a href="https://www.cmu.edu/tepper" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2 hover:opacity-80">Tepper School of Business</a>. While I have substantial experience spearheading 0-to-1 launch of intelligence products at enterprise scale, my core philosophy always comes back to deep user empathy.
+            </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              I am a Product Management student at Carnegie Mellon University. This proposal
-              highlights my core PM philosophy: I don't just build cool features; I build strategic
-              growth engines. I understand that for Strava to succeed as a public entity, it must
-              aggressively monetize its user base while preserving the authentic, community-driven
-              social layer.
+              When I was tapped to direct the product roadmap for the{" "}
+              <a href="https://USOpen.com" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2 hover:opacity-80">US Open</a>{" "}
+              Digital Platform at Deloitte, I knew looking at engagement analytics wouldn't be enough. To truly build for golf fans, I needed to understand their obsession. I spent my weekends out on the course, studying the legends of the game, and getting my handicap. That on-the-ground user empathy allowed me to guide a cross-functional unit of 50 engineers and designers to launch immersive features that drove a 12% YoY engagement lift across 350K concurrent users. It was a proud moment when the US Open app hit #1 in the sports category and #5 on the App Store when we went live.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button className="rounded-full font-bold px-6" asChild>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/vijayraghavans/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="w-4 h-4 mr-2" />
                   Connect on LinkedIn
                 </a>
               </Button>
-              <Button variant="outline" className="rounded-full font-bold px-6">
-                <FileDown className="w-4 h-4 mr-2" />
-                Download Resume
+              <Button variant="outline" className="rounded-full font-bold px-6" asChild>
+                <a href="https://drive.google.com/file/d/1pyZlHYCqhcxrwzZdSox-K_GDKFiAM5hA/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                  <FileDown className="w-4 h-4 mr-2" />
+                  Download Resume
+                </a>
               </Button>
             </div>
           </div>
