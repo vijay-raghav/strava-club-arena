@@ -22,9 +22,6 @@ export default function HeroSection() {
         "relative z-10 max-w-4xl mx-auto px-6 text-center transition-all duration-1000",
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
       )}>
-        <p className="text-primary font-bold text-sm tracking-[0.2em] uppercase mb-6">
-          B2B2C Product Strategy Proposal
-        </p>
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-black text-white leading-[1.05] mb-6">
           Strava Club{" "}
           <span className="text-primary">Battlegrounds</span>
@@ -33,12 +30,12 @@ export default function HeroSection() {
           </span>
         </h1>
         <p className="text-white/60 text-base sm:text-lg max-w-2xl mx-auto mb-4 font-medium">
-          A B2B2C Product Strategy Proposal by [Your Name]
+          A B2B2C Product Proposal by Vijay Raghavan
         </p>
         <p className="text-white/50 text-sm sm:text-base max-w-2xl mx-auto mb-10 leading-relaxed">
-          Strava has mastered the individual social graph. But what happens when we weaponize the
-          fastest-growing demographic on the platform—real-world run clubs—to unlock a massive new
-          B2B revenue stream?
+          Strava is the undisputed champion of the individual leaderboard. But by gamifying the
+          platform's fastest-growing demographic—run clubs—we can create an entirely new B2B
+          monetization engine built on collective competition.
         </p>
         <Button
           size="lg"
