@@ -25,11 +25,11 @@ export default function SolutionSection() {
             <Swords className="w-6 h-6 text-primary-foreground" />
           </div>
           <p className="text-foreground leading-relaxed text-base sm:text-lg mt-4">
-            We turn neutral, high-traffic local segments into{" "}
-            <strong>gamified battlegrounds</strong> for real-world clubs (e.g., Brooklyn Track Club
-            vs. Queens Distance Runners). Instead of Strava footing the bill, consumer brands pay to
-            host these hyper-local challenges, leveraging Strava's highly lucrative{" "}
-            <strong>"Sponsored Challenges"</strong> B2B framework.
+            We are turning collective movement into a <strong>B2B growth engine</strong>. By
+            leveraging high-traffic neutral segments for club-vs-club competition, we give Strava's
+            1 million+ clubs a native way to compete. We monetize this engagement by scaling
+            Strava's <strong>"Sponsored Challenges"</strong> framework, allowing localized brands to
+            fund these turf wars to drive high-intent, reward-based e-commerce conversions.
           </p>
         </div>
       </div>
