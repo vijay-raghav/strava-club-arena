@@ -5,18 +5,18 @@ import { Heart, DollarSign, Cpu } from "lucide-react";
 const columns = [
   {
     icon: Heart,
-    title: "Desirability",
-    body: "Directly taps into the massive cultural shift of Gen Z seeking organized, in-person fitness communities. It gives the 1 million+ clubs a reason to engage daily.",
+    title: "User Desirability",
+    body: "This aligns perfectly with the massive cultural shift of Gen Z users seeking organized in-person fitness communities. By providing a gamified competitive space, this feature gives the over one million active clubs on the platform a compelling native reason to engage daily.",
   },
   {
     icon: DollarSign,
-    title: "Viability",
-    body: "Drives immense B2B revenue by offering brands participatory marketing. By enabling fragmented groups to compete, it creates a powerful micro-network effect and peer pressure that acts as an incredibly high psychological and social friction barrier to churn, much like Strava's Family Plan.",
+    title: "Business Viability",
+    body: "This generates lucrative B2B revenue by offering brands highly engaging participatory marketing. Enabling fragmented local groups to compete creates a powerful micro-network effect. This dynamic introduces a high psychological friction barrier to churn.",
   },
   {
     icon: Cpu,
-    title: "Feasibility",
-    body: 'Relies on Strava\'s existing tech. It utilizes the ML-enabled "Leaderboard Integrity" system (evaluating 57 distinct variables) to detect anomalous activities like e-bikes. It also leverages the "Quick Edit" feature to allow users to hide exact start and end geographic locations, ensuring safety.',
+    title: "Technical Feasibility",
+    body: "This leverages Strava's existing technical architecture and machine learning capabilities. It utilizes the ML-enabled Leaderboard Integrity system to automatically evaluate 57 distinct variables and flag anomalous activities like e-bikes before they corrupt the team average. Furthermore, it heavily promotes the Quick Edit privacy feature to ensure vulnerable users can safely obscure their start and end locations.",
   },
 ];
 
@@ -30,9 +30,8 @@ export default function StrategySection() {
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
       )}>
         <div className="text-center mb-16">
-          
           <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground">
-            Product Strategy <span className="text-primary">(DVF Framework)</span>
+            The Strategic Framework
           </h2>
         </div>
 
