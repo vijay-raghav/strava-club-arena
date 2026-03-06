@@ -60,7 +60,7 @@ export default function PrototypeSection() {
                 style={{ height: '780px', overflow: 'hidden' }}
                 allowFullScreen
                 loading="lazy"
-                scrolling="no"
+                scrolling="yes"
               />
             </div>
           </div>
