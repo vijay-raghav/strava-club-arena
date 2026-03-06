@@ -1,12 +1,30 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import ProblemSection from "@/components/ProblemSection";
+import SolutionSection from "@/components/SolutionSection";
+import StrategySection from "@/components/StrategySection";
+import PrototypeSection from "@/components/PrototypeSection";
+import ExecutionSection from "@/components/ExecutionSection";
+import AboutSection from "@/components/AboutSection";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <Navbar />
+      <HeroSection />
+      <ProblemSection />
+      <SolutionSection />
+      <StrategySection />
+      <PrototypeSection />
+      <ExecutionSection />
+      <AboutSection />
+
+      {/* Footer */}
+      <footer className="py-8 border-t border-border bg-background">
+        <p className="text-center text-muted-foreground text-sm">
+          © {new Date().getFullYear()} Strava Club Battlegrounds — A Product Strategy Proposal
+        </p>
+      </footer>
     </div>
   );
 };
