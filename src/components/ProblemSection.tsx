@@ -65,7 +65,6 @@ export default function ProblemSection() {
               </div>
             </div>
           </div>
-          </div>
         </div>
 
         {/* Right – Image placeholder */}
