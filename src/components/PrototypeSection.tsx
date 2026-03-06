@@ -40,14 +40,14 @@ export default function PrototypeSection() {
           ))}
         </div>
 
-        {/* Figma embed placeholder */}
-        <div className="rounded-2xl border-2 border-dashed border-border bg-card/50 aspect-video flex items-center justify-center">
-          <div className="text-center">
-            <p className="text-muted-foreground font-semibold mb-2">Figma Prototype Embed</p>
-            <p className="text-muted-foreground/60 text-sm max-w-md">
-              Replace this placeholder with your Figma embed iframe
-            </p>
-          </div>
+        {/* Figma embed */}
+        <div className="rounded-2xl overflow-hidden border border-border shadow-lg" style={{ aspectRatio: '16/9' }}>
+          <iframe
+            src="https://dairy-title-54358583.figma.site/"
+            className="w-full h-full border-0"
+            allowFullScreen
+            loading="lazy"
+          />
         </div>
       </div>
     </section>
