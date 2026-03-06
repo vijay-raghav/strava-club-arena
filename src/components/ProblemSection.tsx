@@ -1,6 +1,7 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { cn } from "@/lib/utils";
 import { Eye, AlertTriangle } from "lucide-react";
+import runClubImage from "@/assets/run-club.png";
 
 export default function ProblemSection() {
   const { ref, isVisible } = useScrollAnimation();
