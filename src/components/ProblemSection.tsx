@@ -19,11 +19,14 @@ export default function ProblemSection() {
         <div>
           
           <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground mb-6 leading-tight">
-            The Context <span className="text-primary">&</span> The Gap
+            The Context
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-8">
-            As a Product Management graduate student at Carnegie Mellon University, I was challenged
-            to identify an entirely unserved user segment within a mature digital product.
+            During one of my courses at Carnegie Mellon, a user segmentation exercise challenged me
+            to identify an underserved cohort within a mature, high-scale product. That's when a
+            massive opportunity within Strava struck me: we typically view the total addressable
+            market as individual athletes, but the rapidly expanding ecosystem of clubs represents a
+            distinct, highly actionable growth segment of its own.
           </p>
 
           <div className="space-y-6">
@@ -34,11 +37,14 @@ export default function ProblemSection() {
               <div>
                 <h3 className="font-bold text-foreground mb-1">The Observation</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Strava's marketing brilliantly leverages individual storytelling. However, it
-                  underutilizes team dynamics. Generation Z is the fastest-growing demographic, and
-                  their usage represents a fundamental shift toward organized run clubs. In 2025, the
-                  number of new clubs nearly quadrupled, pushing the total past{" "}
-                  <strong className="text-foreground">1 million Strava Clubs</strong>.
+                  Strava's growth engine brilliantly leverages individual storytelling and
+                  peer-to-peer validation. However, the platform currently underutilizes collective
+                  team dynamics. Gen Z is now the fastest-growing demographic on the platform, and
+                  their behavior reveals a fundamental shift away from passive social media and toward
+                  in-person, organized fitness communities. Reflecting this cultural wave, the number
+                  of new clubs created on the platform nearly quadrupled in 2025, pushing the total
+                  number of Strava Clubs past the{" "}
+                  <strong className="text-foreground">1 million mark</strong>.
                 </p>
               </div>
             </div>
@@ -50,8 +56,11 @@ export default function ProblemSection() {
               <div>
                 <h3 className="font-bold text-foreground mb-1">The Gap</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Currently, leaderboards are fiercely individual, leaving these 1 million+ clubs
-                  without a native way to compete collectively against each other.
+                  Despite this massive sociological shift, Strava's core competitive
+                  infrastructure—the Segment leaderboard—remains fiercely individual. This leaves
+                  over 1 million active digital clubs without a native, gamified way to compete
+                  collectively against one another, representing a massive untapped opportunity for
+                  both community engagement and B2B monetization.
                 </p>
               </div>
             </div>
