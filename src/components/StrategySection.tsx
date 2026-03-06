@@ -30,7 +30,7 @@ export default function StrategySection() {
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
       )}>
         <div className="text-center mb-16">
-          <p className="text-primary font-bold text-sm tracking-[0.15em] uppercase mb-3">Section 04</p>
+          
           <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground">
             Product Strategy <span className="text-primary">(DVF Framework)</span>
           </h2>

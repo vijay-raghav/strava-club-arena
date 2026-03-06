@@ -17,7 +17,7 @@ export default function ProblemSection() {
       >
         {/* Left – Text */}
         <div>
-          <p className="text-primary font-bold text-sm tracking-[0.15em] uppercase mb-3">Section 02</p>
+          
           <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground mb-6 leading-tight">
             The Context <span className="text-primary">&</span> The Gap
           </h2>

@@ -25,7 +25,7 @@ export default function AboutSection() {
 
           {/* Text */}
           <div>
-            <p className="text-primary font-bold text-sm tracking-[0.15em] uppercase mb-3">Section 07</p>
+            
             <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground mb-4">
               Hi, I'm <span className="text-primary">[Your Name]</span>.
             </h2>
