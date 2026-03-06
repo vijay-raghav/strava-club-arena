@@ -14,8 +14,10 @@ export default function AboutSection() {
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
       )}>
         <div className="grid md:grid-cols-[auto_1fr] gap-12 items-center">
-          {/* Photo placeholder */}
-          <img src={profilePhoto} alt="Profile photo" className="w-48 h-48 rounded-3xl object-cover mx-auto md:mx-0 shrink-0" />
+          <div className="flex flex-col items-center md:items-start shrink-0">
+            <img src={profilePhoto} alt="Vijay Raghavan after a 10K race" className="w-48 h-48 rounded-3xl object-cover" />
+            <p className="text-sm text-muted-foreground mt-3 italic text-center">Two 10Ks down. A 21K ahead.</p>
+          </div>
 
           {/* Text */}
           <div>
