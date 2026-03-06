@@ -3,15 +3,15 @@ import { cn } from "@/lib/utils";
 import { BarChart3, Rocket } from "lucide-react";
 
 const metrics = [
-  { label: "Active Club Participation Rate", desc: "% of clubs actively joining Battlegrounds per month" },
-  { label: "Brand Conversion Rate", desc: "% of participants clicking through to sponsor checkout" },
-  { label: "ML Flagging Accuracy", desc: "Precision of the Leaderboard Integrity system" },
+  { label: "Active Club Participation Rate", desc: "The percentage of the 1 million+ active clubs opting into Battlegrounds, and the subsequent lift in Daily Active Users (DAU) during the challenge window." },
+  { label: "Attributable Brand Conversion", desc: "Click-through rates to the sponsor's checkout page and the resulting audience growth multiplier for the brand's native Strava Club." },
+  { label: "ML Flagging Precision", desc: "The ratio of anomalous activities successfully intercepted by the Leaderboard Integrity system before they artificially inflate the team's aggregate score." },
 ];
 
 const phases = [
-  { phase: "Phase 1 — Beta", desc: "Hyper-local pilot (e.g., NYC) sponsored by Nike. Validate engagement and brand ROI.", color: "bg-primary/20 text-primary" },
-  { phase: "Phase 2 — Evangelism", desc: 'Targeted outreach to Gen Z "Club Admins." Expand to 10 cities with diverse sponsors.', color: "bg-primary/40 text-primary" },
-  { phase: "Phase 3 — Global", desc: "Self-serve B2B portal rollout. Scaled worldwide ahead of the anticipated IPO.", color: "bg-primary text-primary-foreground" },
+  { phase: "Phase 1 — Closed Beta", desc: "Launch a hyper-local pilot in a high-density urban hub partnering with a legacy B2B sponsor like Nike. Goal: Stress-test UI/UX and validate brand ROI.", color: "bg-primary/20 text-primary" },
+  { phase: "Phase 2 — Community Evangelism", desc: 'Execute targeted outreach to Gen Z "Club Admins." Leverage organic, peer-to-peer network effects to expand the feature into 10 new regional markets with diverse, localized sponsors.', color: "bg-primary/40 text-primary" },
+  { phase: "Phase 3 — Global B2B Scale", desc: "Launch a self-serve B2B portal allowing local running shops and global brands alike to seamlessly fund turf wars, driving massive ARR expansion.", color: "bg-primary text-primary-foreground" },
 ];
 
 export default function ExecutionSection() {
