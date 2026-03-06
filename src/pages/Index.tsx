@@ -19,12 +19,6 @@ const Index = () => {
       <ExecutionSection />
       <AboutSection />
 
-      {/* Footer */}
-      <footer className="py-8 border-t border-border bg-background">
-        <p className="text-center text-muted-foreground text-sm">
-          © {new Date().getFullYear()} Strava Club Battlegrounds — A Product Strategy Proposal
-        </p>
-      </footer>
     </div>
   );
 };
