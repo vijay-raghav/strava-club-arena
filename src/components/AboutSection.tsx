@@ -2,6 +2,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Linkedin, FileDown } from "lucide-react";
+import profilePhoto from "@/assets/profile-photo.png";
 
 export default function AboutSection() {
   const { ref, isVisible } = useScrollAnimation();
@@ -14,14 +15,7 @@ export default function AboutSection() {
       )}>
         <div className="grid md:grid-cols-[auto_1fr] gap-12 items-center">
           {/* Photo placeholder */}
-          <div className="w-48 h-48 rounded-3xl bg-card border border-border flex items-center justify-center mx-auto md:mx-0 shrink-0">
-            <div className="text-center">
-              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-2">
-                <span className="text-2xl">👤</span>
-              </div>
-              <p className="text-muted-foreground text-xs">Your photo</p>
-            </div>
-          </div>
+          <img src={profilePhoto} alt="Profile photo" className="w-48 h-48 rounded-3xl object-cover mx-auto md:mx-0 shrink-0" />
 
           {/* Text */}
           <div>
