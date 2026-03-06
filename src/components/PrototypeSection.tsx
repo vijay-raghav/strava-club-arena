@@ -1,6 +1,6 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { cn } from "@/lib/utils";
-import { Megaphone, UserCheck, Activity, Award, ShoppingCart } from "lucide-react";
+import { Megaphone, UserCheck, Activity, Award, ShoppingCart, MousePointerClick } from "lucide-react";
 
 const steps = [
   { icon: Megaphone, label: "Discovery", desc: "Native in-feed sponsored card highlighting the local rivalry." },
@@ -40,14 +40,30 @@ export default function PrototypeSection() {
           ))}
         </div>
 
-        {/* Figma embed */}
-        <div className="rounded-2xl overflow-hidden border border-border shadow-lg" style={{ aspectRatio: '16/9' }}>
-          <iframe
-            src="https://dairy-title-54358583.figma.site/"
-            className="w-full h-full border-0"
-            allowFullScreen
-            loading="lazy"
-          />
+        {/* Prototype prompt */}
+        <div className="text-center mb-8">
+          <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-5 py-2.5 rounded-full mb-4">
+            <MousePointerClick className="w-5 h-5" />
+            <span className="font-semibold text-sm">Interactive Prototype</span>
+          </div>
+          <h3 className="text-xl sm:text-2xl font-bold text-foreground mb-2">Click through the experience below</h3>
+          <p className="text-muted-foreground max-w-lg mx-auto text-sm">Tap and swipe through each screen to see the full Sponsored Club Battlegrounds user journey.</p>
+        </div>
+
+        {/* Figma embed – frameless, tall, no inner scroll */}
+        <div className="flex justify-center">
+          <div className="w-full max-w-[420px] rounded-[2.5rem] bg-foreground/5 border border-border shadow-2xl overflow-hidden p-3">
+            <div className="rounded-[2rem] overflow-hidden bg-background" style={{ height: '780px' }}>
+              <iframe
+                src="https://dairy-title-54358583.figma.site/"
+                className="w-full border-0"
+                style={{ height: '780px', overflow: 'hidden' }}
+                allowFullScreen
+                loading="lazy"
+                scrolling="no"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
