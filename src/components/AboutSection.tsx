@@ -2,6 +2,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Linkedin, FileDown } from "lucide-react";
+import profilePhoto from "@/assets/profile-photo.png";
 
 export default function AboutSection() {
   const { ref, isVisible } = useScrollAnimation();
