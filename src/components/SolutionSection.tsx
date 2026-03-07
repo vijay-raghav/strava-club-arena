@@ -14,7 +14,7 @@ export default function SolutionSection() {
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         )}
       >
-        
+
         <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground mb-6">
           Enter <span className="text-primary">Sponsored Club Battlegrounds</span>
         </h2>
@@ -25,9 +25,9 @@ export default function SolutionSection() {
             <Swords className="w-6 h-6 text-primary-foreground" />
           </div>
           <p className="text-foreground leading-relaxed text-base sm:text-lg mt-4">
-            We are turning collective movement into a <strong>B2B growth engine</strong>. By
-            leveraging high-traffic neutral segments for club-vs-club competition, we give Strava's
-            1 million+ clubs a native way to compete. We monetize this engagement by scaling
+            This proposal turns collective movement into a <strong>B2B growth engine</strong>. By
+            leveraging high-traffic neutral segments for club-vs-club competition, it gives Strava's
+            1 million+ clubs a native way to compete. It monetizes this engagement by scaling
             Strava's <strong>"Sponsored Challenges"</strong> framework, allowing localized brands to
             fund these turf wars to drive high-intent, reward-based e-commerce conversions.
           </p>

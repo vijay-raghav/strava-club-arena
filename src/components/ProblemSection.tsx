@@ -17,14 +17,14 @@ export default function ProblemSection() {
       >
         {/* Left – Text */}
         <div>
-          
+
           <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground mb-6 leading-tight">
             The Context
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-8">
             During one of my courses at Carnegie Mellon, a user segmentation exercise challenged me
             to identify an underserved cohort within a mature, high-scale product. That's when a
-            massive opportunity within Strava struck me: we typically view the total addressable
+            massive opportunity within Strava struck me: analysts typically view the total addressable
             market as individual athletes, but the rapidly expanding ecosystem of clubs represents a
             distinct, highly actionable growth segment of its own.
           </p>

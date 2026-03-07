@@ -53,9 +53,6 @@ export default function PrototypeSection() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground mb-4">
             The User Flow: <span className="text-primary">Concept to Conversion</span>
           </h2>
-          <p className="text-muted-foreground max-w-3xl mx-auto text-base sm:text-lg leading-relaxed">
-            A successful product feature must balance a frictionless user experience with clear business outcomes. Explore the interactive Figma prototype below to experience the end-to-end journey of a Sponsored Club Battleground, from the initial social hook to the final B2B conversion.
-          </p>
         </div>
 
         {/* 5-Step Flow */}

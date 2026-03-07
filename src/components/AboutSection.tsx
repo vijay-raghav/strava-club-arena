@@ -21,7 +21,7 @@ export default function AboutSection() {
 
           {/* Text */}
           <div>
-            
+
             <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground mb-4">
               Hi, I'm <span className="text-primary">Vijay Raghavan</span>.
             </h2>
@@ -35,7 +35,7 @@ export default function AboutSection() {
             <p className="text-muted-foreground leading-relaxed mb-8">
               When I was tapped to direct the product roadmap for the{" "}
               <a href="https://USOpen.com" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2 hover:opacity-80">US Open</a>{" "}
-              Digital Platform at Deloitte, I knew looking at engagement analytics wouldn't be enough. To truly build for golf fans, I needed to understand their obsession. I spent my weekends out on the course, studying the legends of the game, and getting my handicap. That on-the-ground user empathy allowed me to guide a cross-functional unit of 50 engineers and designers to launch immersive features that drove a 12% YoY engagement lift across 350K concurrent users. It was a proud moment when the US Open app hit #1 in the sports category and #5 on the App Store when we went live.
+              Digital Platform at Deloitte, I knew looking at engagement analytics wouldn't be enough. To truly build for golf fans, I needed to understand their obsession. I spent my weekends out on the course, studying the legends of the game, and getting my handicap. That on-the-ground user empathy allowed me to guide a cross-functional unit of 50 engineers and designers to launch immersive features that drove a 12% YoY engagement lift across 350K concurrent users. It was a proud moment when the US Open app hit #1 in the sports category and #5 on the App Store when my team went live.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button className="rounded-full font-bold px-6" asChild>
